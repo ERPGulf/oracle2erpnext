@@ -336,5 +336,4 @@ def invoice_list(id=None):
         "taxes":sales_dict
     }
 
-
     return Response(json.dumps({"data": customer_info}), status=200, mimetype='application/json')
